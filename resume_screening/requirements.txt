@@ -1,0 +1,6 @@
+PyPDF2
+python-docx
+spacy
+scikit-learn
+openai
+flask

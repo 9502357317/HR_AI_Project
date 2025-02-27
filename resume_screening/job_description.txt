@@ -1,0 +1,39 @@
+Job Title: Artificial Intelligence Engineer
+Location: Remote/On-site
+Job Type: Full-time
+
+About Us:
+We are a leading technology company specializing in AI-driven solutions. Our mission is to revolutionize industries through cutting-edge artificial intelligence and machine learning technologies. We are looking for a talented and motivated AI Engineer to join our team and help us build innovative AI systems.
+
+Responsibilities:
+- Design, develop, and deploy machine learning models and AI systems.
+- Collaborate with data scientists and software engineers to integrate AI solutions into products.
+- Optimize and fine-tune machine learning algorithms for performance and scalability.
+- Conduct research and experimentation to improve existing AI models.
+- Stay up-to-date with the latest advancements in AI and machine learning technologies.
+- Work on natural language processing (NLP), computer vision, and deep learning projects.
+- Document and present technical findings to stakeholders.
+
+Requirements:
+- Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, or a related field.
+- 3+ years of experience in AI/ML development.
+- Proficiency in Python and AI/ML frameworks such as TensorFlow, PyTorch, or Scikit-learn.
+- Strong understanding of machine learning algorithms, including supervised, unsupervised, and reinforcement learning.
+- Experience with NLP, computer vision, or deep learning is a plus.
+- Familiarity with cloud platforms like AWS, Google Cloud, or Azure.
+- Excellent problem-solving and analytical skills.
+- Strong communication and teamwork abilities.
+
+Preferred Qualifications:
+- Experience with big data technologies like Hadoop or Spark.
+- Knowledge of DevOps and MLOps practices.
+- Published research or contributions to AI/ML communities.
+
+Benefits:
+- Competitive salary and benefits package.
+- Flexible working hours and remote work options.
+- Opportunities for professional growth and development.
+- Collaborative and innovative work environment.
+
+How to Apply:
+Please submit your resume and a cover letter detailing your experience and interest in this role.
