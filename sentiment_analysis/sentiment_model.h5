@@ -1,0 +1,29 @@
+from tensorflow.keras.models import load_model
+import numpy as np
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+import pickle
+
+# Load the model
+model = load_model("sentiment_model.h5")
+
+# Load the tokenizer
+with open("tokenizer.pkl", "rb") as file:
+    tokenizer = pickle.load(file)
+
+# Preprocess new feedback
+def preprocess_feedback(feedback):
+    sequences = tokenizer.texts_to_sequences([feedback])
+    padded_sequences = pad_sequences(sequences, maxlen=100)
+    return padded_sequences
+
+# Predict attrition risk
+def predict_attrition_risk(feedback):
+    padded_sequences = preprocess_feedback(feedback)
+    predictions = model.predict(padded_sequences)
+    predicted_class = np.argmax(predictions, axis=1)
+    return predicted_class[0]  # Returns 0 (low), 1 (medium), or 2 (high)
+
+# Example usage
+feedback = "I feel undervalued and overworked."
+attrition_risk = predict_attrition_risk(feedback)
+print("Predicted Attrition Risk:", ["low", "medium", "high"][attrition_risk])
